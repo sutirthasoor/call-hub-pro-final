@@ -46,43 +46,14 @@ cd call-hub-spa
 2. Install Dependencies
 bash
 npm install
-3. Environment Variables
-Create a .env file in the root directory:
 
-env
-VITE_FIREBASE_API_KEY=your_firebase_api_key
-VITE_FIREBASE_AUTH_DOMAIN=your_firebase_auth_domain
-VITE_FIREBASE_PROJECT_ID=your_firebase_project_id
-VITE_FIREBASE_STORAGE_BUCKET=your_firebase_storage_bucket
-VITE_FIREBASE_MESSAGING_SENDER_ID=your_firebase_messaging_sender_id
-VITE_FIREBASE_APP_ID=your_firebase_app_id
-VITE_BACKEND_URL=https://your-backend-url.onrender.com
-4. Start Development Server
+3. Start Development Server
 bash
 npm run dev
 Open http://localhost:5173 in your browser.
 
-🏗️ Project Structure
-text
-src/
-├── components/
-│   ├── Layout/
-│   │   └── Layout.tsx          # Main layout wrapper
-│   ├── Calls.tsx               # Call logs with recordings
-│   ├── Leads.tsx               # Lead management
-│   ├── Dashboard.tsx           # Overview dashboard
-│   └── ...
-├── lib/
-│   ├── firebase.ts             # Firebase configuration
-│   └── FirebaseContext.tsx     # Firebase provider
-├── hooks/
-│   └── useFirebase.ts          # Firebase custom hook
-├── types/
-│   └── index.ts                # TypeScript interfaces
-├── App.tsx                     # Main app component
-├── main.tsx                    # Entry point
-└── index.css                   # Global styles
-🔧 Key Features Explained
+🔧 Key Features Explained:
+
 1. Call Management
 Make Calls: Dial any phone number directly from the browser
 
@@ -182,16 +153,9 @@ firebase init hosting
 npm run build
 firebase deploy
 📊 Environment Variables
-Variable	Description
-VITE_FIREBASE_API_KEY	Firebase API key
-VITE_FIREBASE_AUTH_DOMAIN	Firebase auth domain
-VITE_FIREBASE_PROJECT_ID	Firebase project ID
-VITE_FIREBASE_STORAGE_BUCKET	Firebase storage bucket
-VITE_FIREBASE_MESSAGING_SENDER_ID	Firebase messaging sender ID
-VITE_FIREBASE_APP_ID	Firebase app ID
-VITE_BACKEND_URL	Backend API URL (Render)
+
 🔗 Related Repositories
-Backend: CALL-RECORDING-BACKEND
+Backend: [CALL-RECORDING-BACKEND](https://github.com/unfazed24072005io/CALL-RECORDING-BACKEND)
 
 🤝 Contributing
 Fork the repository
